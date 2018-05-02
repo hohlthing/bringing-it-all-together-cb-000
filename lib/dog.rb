@@ -1,7 +1,7 @@
 class Dog
 
   attr_accessor :name, :breed
-  attr_reader :# IDEA:
+  attr_reader :id 
 
   def initialize(name:, breed:, id: nil)
     @name = name
@@ -9,6 +9,6 @@ class Dog
     @id = id
   end
 
-  
+
 
 end
